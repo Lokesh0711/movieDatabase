@@ -1,0 +1,41 @@
+.header-bg-container {
+  padding: 5px 10px 5px 10px;
+  background-color: #999d95;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav-buttons {
+  display: flex;
+  align-items: center;
+}
+.header-title {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 700;
+  color: #262626;
+}
+.nav-button {
+  margin-left: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  color: #262626;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.header-nav-search-container {
+  border: 1px solid #262626;
+  padding-left: 0px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.nav-search-field {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}

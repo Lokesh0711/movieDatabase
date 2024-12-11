@@ -1,0 +1,18 @@
+.Home-bg-container {
+  min-height: 100vh;
+  background-color: #c8d7b8;
+  border: 1px solid #c8d7b8;
+  padding: 20px;
+}
+.page-title {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  color: #262626;
+}
+.movie-list-container{
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,70 @@
+.movie-bg-container {
+  min-height: 100vh;
+  background-color:;
+  padding: 20px;
+}
+.movie-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+}
+.movie-card-poster {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+}
+.movie-card-text-constainer {
+  margin-left: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.movie-card-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.movie-rating-gener-list {
+  display: flex;
+  list-style: none;
+  padding-left: 7px;
+  align-items: center;
+}
+.gener-list {
+  color: #262626;
+  font-family: 'Roboto';
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+}
+.movie-desc {
+  margin-right: 10px;
+}
+.cast-list-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.cast-card {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.cast-image {
+  width: 200px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cast-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #262626;
+  font-family: 'Roboto';
+}
+.cast-charecter {
+  font-style: italic;
+}
