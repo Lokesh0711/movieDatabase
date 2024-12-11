@@ -21,7 +21,7 @@ const Header = () => {
       <div className="header-nav-buttons">
         <div className="header-nav-search-container">
           <input
-            type="search"
+            type="text"
             className="nav-search-field"
             onChange={onEditSearch}
           />

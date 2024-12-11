@@ -14,7 +14,12 @@ const MovieGridGenerater = props => {
   const imageUrl = `https://image.tmdb.org/t/p/original${posterPath}`
   return (
     <li className="movie-grid-item">
-      <img src={imageUrl} alt="poster" className="movie-poster" />
+      <img
+        src={imageUrl}
+        alt="poster"
+        className="movie-poster"
+        key="poster_path"
+      />
       <div className="movie-detail-conatiner">
         <div className="movie-detail-text-conateiner">
           <h1 className="movie-title">{title}</h1>
